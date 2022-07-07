@@ -1,0 +1,50 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #fff;
+  color: #333;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 23px;
+  font-weight: 100;
+  line-height: 1.4em;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  height: 100%;
+  width: 100%;
+
+  padding: 200px 0;
+}
+
+i {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+#social-links {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+#photo {
+  border-radius: 40%;
+  width: 13em;
+  height: 13rem;
+}
+
+#intro-text {
+  text-align: center;
+}
+
+#ishan {
+  color: yellowgreen;
+}
