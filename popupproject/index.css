@@ -1,0 +1,10 @@
+#box {
+  background-color: blue;
+  height: 310px;
+  width: 500px;
+  visibility: hidden;
+}
+
+#box.show {
+  visibility: visible;
+}
